@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.pt binary
+*.ckpt binary
+# Preserve the attributed runtime byte for byte, including upstream whitespace.
+vendor/simg_runtime/** -whitespace

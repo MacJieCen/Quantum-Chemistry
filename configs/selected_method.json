@@ -1,0 +1,431 @@
+{
+  "format_version": 1,
+  "folds": 5,
+  "profiles": {
+    "profile_01": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "descriptor_dim": 23,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      },
+      "training_config": {
+        "use_descriptors": true,
+        "loss_name": "class_balanced_focal",
+        "sampler": "class_balanced",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0005,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      }
+    },
+    "profile_02": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "descriptor_dim": 23,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      },
+      "training_config": {
+        "use_descriptors": true,
+        "loss_name": "class_balanced_focal",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0005,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      }
+    },
+    "profile_03": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "descriptor_dim": 23,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true
+      },
+      "training_config": {
+        "use_descriptors": true,
+        "loss_name": "class_balanced_focal",
+        "sampler": "class_balanced",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0005
+      }
+    },
+    "profile_04": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 96,
+        "capsule_dim": 32,
+        "num_primary": 4,
+        "num_layers": 3,
+        "routing_iterations": 3,
+        "dropout": 0.1,
+        "descriptor_dim": 0,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": false,
+        "use_multiscale": false
+      },
+      "training_config": {
+        "use_descriptors": false,
+        "loss_name": "margin",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": false,
+        "use_multiscale": false,
+        "hidden_dim": 96,
+        "capsule_dim": 32,
+        "num_primary": 4,
+        "num_layers": 3,
+        "routing_iterations": 3,
+        "dropout": 0.1,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0001
+      }
+    },
+    "profile_05": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 96,
+        "capsule_dim": 32,
+        "num_primary": 4,
+        "num_layers": 3,
+        "routing_iterations": 3,
+        "dropout": 0.1,
+        "descriptor_dim": 0,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": false
+      },
+      "training_config": {
+        "use_descriptors": false,
+        "loss_name": "margin",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": false,
+        "hidden_dim": 96,
+        "capsule_dim": 32,
+        "num_primary": 4,
+        "num_layers": 3,
+        "routing_iterations": 3,
+        "dropout": 0.1,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0001
+      }
+    },
+    "profile_06": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "descriptor_dim": 23,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true
+      },
+      "training_config": {
+        "use_descriptors": true,
+        "loss_name": "class_balanced_focal",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0005
+      }
+    },
+    "profile_07": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "descriptor_dim": 23,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true
+      },
+      "training_config": {
+        "use_descriptors": true,
+        "loss_name": "hybrid_focal",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0005
+      }
+    },
+    "profile_08": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 96,
+        "capsule_dim": 32,
+        "num_primary": 4,
+        "num_layers": 3,
+        "routing_iterations": 3,
+        "dropout": 0.1,
+        "descriptor_dim": 0,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": false,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      },
+      "training_config": {
+        "use_descriptors": false,
+        "loss_name": "margin",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": false,
+        "hidden_dim": 96,
+        "capsule_dim": 32,
+        "num_primary": 4,
+        "num_layers": 3,
+        "routing_iterations": 3,
+        "dropout": 0.1,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0001,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      }
+    },
+    "profile_09": {
+      "model_config": {
+        "input_dim": 39,
+        "edge_dim": 27,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "descriptor_dim": 23,
+        "num_classes": 2,
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      },
+      "training_config": {
+        "use_descriptors": true,
+        "loss_name": "margin",
+        "sampler": "standard",
+        "use_node_types": true,
+        "use_interactions": true,
+        "use_multiscale": true,
+        "hidden_dim": 128,
+        "capsule_dim": 48,
+        "num_primary": 6,
+        "num_layers": 4,
+        "routing_iterations": 3,
+        "dropout": 0.12,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0002,
+        "use_orthogonal_attention": true,
+        "orthogonal_reflections": 3
+      }
+    }
+  },
+  "tasks": {
+    "FirstStage": [
+      {
+        "fold": 1,
+        "profile": "profile_01"
+      },
+      {
+        "fold": 2,
+        "profile": "profile_01"
+      },
+      {
+        "fold": 3,
+        "profile": "profile_02"
+      },
+      {
+        "fold": 4,
+        "profile": "profile_01"
+      },
+      {
+        "fold": 5,
+        "profile": "profile_02"
+      }
+    ],
+    "Hematotoxicity": [
+      {
+        "fold": 1,
+        "profile": "profile_03"
+      },
+      {
+        "fold": 2,
+        "profile": "profile_03"
+      },
+      {
+        "fold": 3,
+        "profile": "profile_04"
+      },
+      {
+        "fold": 4,
+        "profile": "profile_05"
+      },
+      {
+        "fold": 5,
+        "profile": "profile_03"
+      }
+    ],
+    "Hemolytic": [
+      {
+        "fold": 1,
+        "profile": "profile_02"
+      },
+      {
+        "fold": 2,
+        "profile": "profile_01"
+      },
+      {
+        "fold": 3,
+        "profile": "profile_01"
+      },
+      {
+        "fold": 4,
+        "profile": "profile_02"
+      },
+      {
+        "fold": 5,
+        "profile": "profile_01"
+      }
+    ],
+    "Myelotoxicity": [
+      {
+        "fold": 1,
+        "profile": "profile_03"
+      },
+      {
+        "fold": 2,
+        "profile": "profile_06"
+      },
+      {
+        "fold": 3,
+        "profile": "profile_07"
+      },
+      {
+        "fold": 4,
+        "profile": "profile_06"
+      },
+      {
+        "fold": 5,
+        "profile": "profile_03"
+      }
+    ],
+    "Thrombocytopenia": [
+      {
+        "fold": 1,
+        "profile": "profile_08"
+      },
+      {
+        "fold": 2,
+        "profile": "profile_08"
+      },
+      {
+        "fold": 3,
+        "profile": "profile_08"
+      },
+      {
+        "fold": 4,
+        "profile": "profile_08"
+      },
+      {
+        "fold": 5,
+        "profile": "profile_09"
+      }
+    ]
+  }
+}

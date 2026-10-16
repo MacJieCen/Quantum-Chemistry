@@ -1,0 +1,168 @@
+{
+  "format_version": 1,
+  "architecture": "simg_graph_parsecaps_dynamic_v2",
+  "graph_schema": "simg-x39-edge27-v1",
+  "bundle_name": "toxFM-development-matched-validation-20261016",
+  "endpoints": {
+    "FirstStage": [
+      {
+        "file": "FirstStage/fold_01.pt",
+        "sha256": "5bff76f065c257890a02c9f5087d1745ffa5b6db5cda8dfd64070d8d9e9d11d8",
+        "threshold": 0.48420101404190063,
+        "selected_configuration": "householder_type_interaction_cb_sampler"
+      },
+      {
+        "file": "FirstStage/fold_02.pt",
+        "sha256": "309896a26b89727d68ca88646323e92c2e8c810203220e8b501303fbe0b8205c",
+        "threshold": 0.5218490958213806,
+        "selected_configuration": "householder_type_interaction_cb_sampler"
+      },
+      {
+        "file": "FirstStage/fold_03.pt",
+        "sha256": "a07400b99f1ac4c321f8041a88e0461c1f7cc8021a9b180b955a534992d92ab9",
+        "threshold": 0.4342178702354431,
+        "selected_configuration": "householder_type_interaction_cb_focal"
+      },
+      {
+        "file": "FirstStage/fold_04.pt",
+        "sha256": "164266271146da6baa11d9ee5dc5a13586518c33729560c2b6392acc00cd3ef0",
+        "threshold": 0.5595676302909851,
+        "selected_configuration": "householder_type_interaction_cb_sampler"
+      },
+      {
+        "file": "FirstStage/fold_05.pt",
+        "sha256": "0f17e28d8e7cfb72063a980f8c766edc8fa3b8d910080c77d9a6597b9d0da048",
+        "threshold": 0.4784724712371826,
+        "selected_configuration": "householder_type_interaction_cb_focal"
+      }
+    ],
+    "Hematotoxicity": [
+      {
+        "file": "Hematotoxicity/fold_01.pt",
+        "sha256": "0e7704c008b441fd95e4c49e7a65db1f23e05676906bd48ded163b2df0838a7b",
+        "threshold": 0.4163593649864197,
+        "selected_configuration": "dynamic_type_interaction_cb_sampler"
+      },
+      {
+        "file": "Hematotoxicity/fold_02.pt",
+        "sha256": "e79c79cd51b19040b3d5f2b312bd65ac5dd810207c8dd75904c41b7adf37c1f2",
+        "threshold": 0.39111244678497314,
+        "selected_configuration": "dynamic_type_interaction_cb_sampler"
+      },
+      {
+        "file": "Hematotoxicity/fold_03.pt",
+        "sha256": "7acf79a41e9085984ae509529ac17836f189fbcc4ea084308e54ec781c3c2240",
+        "threshold": 0.5952233076095581,
+        "selected_configuration": "dynamic_type_margin"
+      },
+      {
+        "file": "Hematotoxicity/fold_04.pt",
+        "sha256": "4338a65b83888889482b7f2ded0503c70f25ec61ed6d0d6961d741d9432f97bb",
+        "threshold": 0.6830848455429077,
+        "selected_configuration": "dynamic_type_interaction_margin"
+      },
+      {
+        "file": "Hematotoxicity/fold_05.pt",
+        "sha256": "b383b8920f7ba592c52862072da897cd3aadafb649ab66abd618c5f48b5142b9",
+        "threshold": 0.49228018522262573,
+        "selected_configuration": "dynamic_type_interaction_cb_sampler"
+      }
+    ],
+    "Hemolytic": [
+      {
+        "file": "Hemolytic/fold_01.pt",
+        "sha256": "2f125fd4766c96db67753994049571188fd405a81a06e05e82142c3e6cef73e3",
+        "threshold": 0.4181784689426422,
+        "selected_configuration": "householder_type_interaction_cb_focal"
+      },
+      {
+        "file": "Hemolytic/fold_02.pt",
+        "sha256": "680d9023fdf01d2f4e50d5e0543349c13051ce4130e2b064a08250801a012411",
+        "threshold": 0.17087316513061523,
+        "selected_configuration": "householder_type_interaction_cb_sampler"
+      },
+      {
+        "file": "Hemolytic/fold_03.pt",
+        "sha256": "b220f1c52411cdbd7be5034bf799099cfb90a96a8ab886b5cb1b33ac894754a4",
+        "threshold": 0.5930370092391968,
+        "selected_configuration": "householder_type_interaction_cb_sampler"
+      },
+      {
+        "file": "Hemolytic/fold_04.pt",
+        "sha256": "7c788ee4dc637c4c62e0cec0de73986f47a16225e0db98bb3f87aa0490276c36",
+        "threshold": 0.5679588317871094,
+        "selected_configuration": "householder_type_interaction_cb_focal"
+      },
+      {
+        "file": "Hemolytic/fold_05.pt",
+        "sha256": "32e8c2785c06c9a51c21925858dd3b51a231ecc401918eb866ab67eb7b9e2f04",
+        "threshold": 0.36746999621391296,
+        "selected_configuration": "householder_type_interaction_cb_sampler"
+      }
+    ],
+    "Myelotoxicity": [
+      {
+        "file": "Myelotoxicity/fold_01.pt",
+        "sha256": "8b7255c19df0340a14c6ad0feb980f4ada3ab01f8b20a1e87b3e6ee110852a31",
+        "threshold": 0.7166577577590942,
+        "selected_configuration": "dynamic_type_interaction_cb_sampler"
+      },
+      {
+        "file": "Myelotoxicity/fold_02.pt",
+        "sha256": "5aea0e48216995c4cb13bf8fe1c80aad229941351d0700b43e67585b7a94c781",
+        "threshold": 0.5129544138908386,
+        "selected_configuration": "dynamic_type_interaction_cb_focal"
+      },
+      {
+        "file": "Myelotoxicity/fold_03.pt",
+        "sha256": "6ffba2974a62ad1778f15ce8aa93ace276d51624419b3cc03b1220848f87a724",
+        "threshold": 0.46264955401420593,
+        "selected_configuration": "dynamic_type_interaction_hybrid"
+      },
+      {
+        "file": "Myelotoxicity/fold_04.pt",
+        "sha256": "a3e03fafb5db0acd5439a5d175ad9a537a05e3ac269dd074493eff802c1f547c",
+        "threshold": 0.47458741068840027,
+        "selected_configuration": "dynamic_type_interaction_cb_focal"
+      },
+      {
+        "file": "Myelotoxicity/fold_05.pt",
+        "sha256": "e9dff7cd5a624cc5e90a0314b4b71d3ab1ccb44ff43e33d3dd56e0fc8f867908",
+        "threshold": 0.7121633887290955,
+        "selected_configuration": "dynamic_type_interaction_cb_sampler"
+      }
+    ],
+    "Thrombocytopenia": [
+      {
+        "file": "Thrombocytopenia/fold_01.pt",
+        "sha256": "c6d833847f35d1288939a64f04a2a5b6f27a278d516fadfff7e4249033aa21ef",
+        "threshold": 0.000012059573236911092,
+        "selected_configuration": "householder_type_interaction_margin"
+      },
+      {
+        "file": "Thrombocytopenia/fold_02.pt",
+        "sha256": "a1464c07db3ca17befe00f040a200d3f80adb27275f080b76588e4bbb604c06e",
+        "threshold": 0.004052741918712854,
+        "selected_configuration": "householder_type_interaction_margin"
+      },
+      {
+        "file": "Thrombocytopenia/fold_03.pt",
+        "sha256": "e4be24e56c59dc3f80771f7f2dddbf13a9a6cc79a7b34e79b63607a2f57a39f6",
+        "threshold": 0.00010003957868320867,
+        "selected_configuration": "householder_type_interaction_margin"
+      },
+      {
+        "file": "Thrombocytopenia/fold_04.pt",
+        "sha256": "933823dd7ee7a48482ac86798a5b3db7995bd0d57c4d3640ab2d2cf4757ab6c0",
+        "threshold": 0.00003270033630542457,
+        "selected_configuration": "householder_type_interaction_margin"
+      },
+      {
+        "file": "Thrombocytopenia/fold_05.pt",
+        "sha256": "84911887b9b2e71955c0cd0fc244a4f44c3fb12824c2e48c196dd29aa846792e",
+        "threshold": 0.0005616069538518786,
+        "selected_configuration": "householder_type_interaction_multiscale"
+      }
+    ]
+  }
+}

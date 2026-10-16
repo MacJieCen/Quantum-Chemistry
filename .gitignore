@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+*.pem
+*.key
+*.pkl
+results/
+outputs/
+runs/
+*.log
+*.err
+.DS_Store

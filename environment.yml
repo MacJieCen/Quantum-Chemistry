@@ -1,0 +1,10 @@
+# Tested server runtime. Linux is the supported reproduction target.
+name: toxfm38
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.19
+  - rdkit=2021.03.2
+  - openbabel=3.1.0
+  - pip<24.1
